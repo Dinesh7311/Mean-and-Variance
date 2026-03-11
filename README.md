@@ -49,9 +49,41 @@ It shows the distance of a random variable from its mean. It is calcualted as
 
 # Program :
 
+# Mean and Variance of Discrete Distribution
 
+```python
+import numpy as np
+
+# values of random variable
+x = np.array([0,1,2,3,4])
+
+# frequency
+f = np.array([5,9,12,8,6])
+
+# total frequency
+N = sum(f)
+
+# probability distribution
+p = f / N
+
+# mean
+mean = sum(x * p)
+
+# variance
+variance = sum((x**2) * p) - (mean**2)
+
+print("Values of x:", x)
+print("Frequency:", f)
+print("Probability:", p)
+
+print("Mean =", mean)
+print("Variance =", variance)
+
+```
 
 # Output : 
+<img width="1701" height="903" alt="image" src="https://github.com/user-attachments/assets/c7078acd-2480-4d91-aa29-6f12d5d37fec" />
+
 
 # Results :
 The mean and variance of arrivals of objects from feeder using probability distribution are calculated.
