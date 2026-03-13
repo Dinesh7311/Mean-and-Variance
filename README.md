@@ -1,3 +1,6 @@
+
+DATE:28.01.26
+
 #  Mean and variance of a discrete  distribution
 
 
@@ -87,4 +90,6 @@ print("Variance =", variance)
 
 # Results :
 The mean and variance of arrivals of objects from feeder using probability distribution are calculated.
+
+GITHUB LINK:
 
